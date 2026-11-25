@@ -1,1 +1,12 @@
-
+ignore:
+  vulnerabilities:
+    CVE-2026-59873:
+      /**/package.json:
+        reason: BY_DESIGN
+        expires: 2027-11-24T17:56:45Z
+    CVE-2020-8203:
+      /**/package.json:
+        reason: BY_DESIGN
+    CVE-2025-7783:
+      /**/package.json:
+        reason: WONT_FIX
