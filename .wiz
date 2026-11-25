@@ -10,3 +10,6 @@ ignore:
     CVE-2025-7783:
       /**/package.json:
         reason: WONT_FIX
+    CVE-2022-21227:
+     /**/package.json:
+	reason: BY_DESIGN
